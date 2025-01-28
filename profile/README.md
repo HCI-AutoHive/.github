@@ -12,6 +12,22 @@
     - **RAG 기반 검색 및 응답 생성**: 최신 데이터를 기반으로 차량 정보를 정확하게 제공.
     - **사용자 맞춤형 정보 제공**: 차량 성능 및 안전성을 바탕으로 한 의사결정 지원.
 
+
+
+## 🛠 사용 기술 및 라이브러리
+- **AI**: RAG (Retrieval-Augmented Generation), Gemini LLM
+- **벡터스토어**: FAISS
+- **임베딩 모델**: Upstage 임베딩 모델 (한국어 특화)
+- **BE**: Flask, Spring Boot
+- **DB**: MySQL
+- **APP**: Android (Kotlin, Jetpack Compose)
+- **배포 및 운영**: Docker, AWS EC2, ECR, S3, RDS
+- **CI/CD**: GitHub Actions
+- **API 문서화**: Swagger
+  
+## ⚙️ Architecture
+![image](https://github.com/user-attachments/assets/819f6f87-6b4f-41a8-86ec-17932408ac71)
+
 ## 👀 프로젝트 주요 화면
 
 - **자동차 리스트 화면**
@@ -34,16 +50,3 @@
 
 </div>
 
-
-## 🛠 사용 기술 및 라이브러리
-- **AI**: RAG (Retrieval-Augmented Generation), Gemini LLM
-- **벡터스토어**: FAISS
-- **임베딩 모델**: Upstage 임베딩 모델 (한국어 특화)
-- **BE**: Flask, Spring Boot
-- **DB**: MySQL
-- **프론트엔드**: Android (Kotlin, Jetpack Compose)
-- **API 문서화**: Swagger
-- **배포 및 운영**: Docker, AWS EC2, ECR, S3, RDS
-
-## ⚙️ Architecture
-![image](https://github.com/user-attachments/assets/819f6f87-6b4f-41a8-86ec-17932408ac71)
